@@ -1,0 +1,78 @@
+body {
+    background-color: gray;
+}
+
+.box {
+    border: 5px transparent ridge;
+    border-radius: 20px;
+    height: 700px;
+    padding-top: 30px;
+    width: 90%;
+    margin-left: 50px;
+    margin-top: 0px;
+    background-color: white;
+    color: gray;
+}
+
+.top {
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: -5px;
+    margin-left: 60px;
+}
+
+.contain {
+    margin-top: 10px;
+}
+
+.search {
+    width: 250px;
+    color: white;
+}
+
+#show-contact {
+    border: transparent;
+    border-radius: 20px;
+    background-color: blue;
+    padding: 10px;
+    font-family: cursive;
+    font-weight: 700;
+    font-size: large;
+    background-color: black;
+    color: white;
+    display: none;
+    text-transform: capitalize;
+    transition: all 500ms ease-in-out;
+}
+
+#contacts {
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucdia Sans Unicode', Genvea, Verdana, sans-serif;
+    transition: all 500ms ease-in-out;
+    list-style-type: none;
+
+}
+
+#contacts:hover {
+    color: white;
+    font-family: cursive;
+    font-weight: bold;
+    cursor: pointer;
+    border: transparent ridge;
+    border-radius: 20px;
+background-color: black; 
+font-size: large;
+font-weight: bold; 
+margin-top: 20px;
+}
+
+.search2 {
+    color: white;
+}
+
+#show-contact:hover {
+    background-color: white;
+    color: black;
+}
